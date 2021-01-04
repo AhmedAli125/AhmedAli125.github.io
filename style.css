@@ -121,3 +121,8 @@ ul{
     font-weight: bolder;
     color: #5b6e69;
 }
+
+.footer{
+    background-color: #172a4525;
+    height: 8vh;
+}
