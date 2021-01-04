@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    /* color: white; */
+}
+
+.custom-nav{
+    /* background-color:black; */
+    color: white;
+    text-decoration: none;
+    color: #91c5f6;
+}
+
+.custom-link{
+    text-decoration: none;
+    color: #91c5f6;
+    /* font-family: 'Source Code Pro', monospace; */
+    margin: 1rem;
+}
+
+.custom-link:hover{
+    color: #61ffda;
+    transition: all ease-in-out 0.2s;
+}
+
+.custom-toggler{
+    color: #61ffda;
+}
+
+.greeting{
+    color: #61ffda;
+
+}
+
+.name{
+    font-weight: 900;
+    color: #e6f1ff
+}
+
+.career{
+    color: #8892b0;
+    font-weight: bold;
+}
+
+.desc{
+    color: #356ab0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-custom{
+    border: 2px solid #61ffda;
+    font-weight: 500;
+    color: #61ffda;
+    width: 150px
+}
+
+.btn-custom:hover{
+    background-color: #61ffda0c;
+    color: #61ffda;
+    transition: all ease-in-out 0.2s;
+}
+
+.heading{
+    font-weight: 600;
+    color: #e6f1ff
+}
+
+.link-class{
+    color: #61ffda
+}
+
+.link-class:hover{
+    color: #50ceb1;
+}
+
+
+.list-item{
+    border-bottom: 2px solid white;
+    width: 150px;
+    color: #5b6e69;
+}
+
+.list-item:hover{
+    color: #61ffda;
+    transition: all ease-in-out 0.2s;
+    border-color: #61ffda;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.far{
+    color: #61ffda;
+}
+
+.icon-class:hover{
+    color: #61ffda;
+    transition: all ease-in-out 0.2s;
+}
+
+.card-subtitle{
+    font-weight: bolder;
+    color: #5b6e69;
+}
+
+.card{
+    background-color: #172a45;
+    border-radius: 0;
+}
+
+.card:hover{
+    transform: translate(-5px, -5px);
+    transition: all ease-in-out 0.2s;
+}
+
+.contact-para{
+    font-weight: bolder;
+    color: #5b6e69;
+}
