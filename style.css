@@ -76,6 +76,17 @@ body{
     color: #50ceb1;
 }
 
+.image-container{
+    border: 3px solid #61ffda;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.image-container:hover{
+    box-shadow: 0px 0px 15px 0px  #61ffda;
+    transition: all ease-in-out 0.2s;
+}
+
 
 .list-item{
     border-bottom: 2px solid white;
@@ -107,13 +118,24 @@ ul{
     color: #5b6e69;
 }
 
-.card{
+.custom-card{
     background-color: #172a45;
     border-radius: 0;
+    width: 300px;
+    height: 270px;
 }
 
-.card:hover{
-    transform: translate(-5px, -5px);
+/* .card-body{
+    width: 60rem;
+    height: 20rem;
+    margin: 1rem;
+
+} */
+
+.custom-card:hover{
+    /* transform: translate(-5px, -5px); */
+    background-color: #122136;
+    /* box-shadow: 0px 0px 2px 2px  #61ffda; */
     transition: all ease-in-out 0.2s;
 }
 
@@ -125,4 +147,9 @@ ul{
 .footer{
     background-color: #172a4525;
     height: 8vh;
+}
+
+.tech-class{
+    color:  #61ffda;
+    font-weight: bold;
 }
