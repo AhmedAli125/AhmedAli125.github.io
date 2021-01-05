@@ -116,13 +116,15 @@ ul{
 .card-subtitle{
     font-weight: bolder;
     color: #5b6e69;
+    height: 90px;
 }
 
 .custom-card{
     background-color: #172a45;
     border-radius: 0;
-    width: 300px;
-    height: 270px;
+    min-width: 300px;
+    min-height: 300px;
+    /* overflow: ; */
 }
 
 /* .card-body{
